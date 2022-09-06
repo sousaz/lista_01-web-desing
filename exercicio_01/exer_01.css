@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    background-color: bisque;
+}
+
+h1 {
+    box-sizing: content-box;
+    margin-left: 29%;
+    padding: 15px;
+    outline: 15px;
+}
+
+p {
+    margin-top: 5px;
+    margin-left: 20px;
+    padding: 15px;
+    outline: 15px;
+    font-size: large;
+}
+
+.acido {
+    margin-left: 55px;
+    padding: 15px;
+    outline: 15px;
+    font-size: large;
+}
+
+.nacido {
+    margin-top: 10px;
+    margin-left: 55px;
+    padding: 15px;
+    outline: 15px;
+    font-size: large;
+}
+
+.morango {
+    margin-left: 55px;
+    width: 270px;
+}
+
+.maca {
+    margin-top: 125px;
+    width: 300px;
+}
+
+div#lista1 {
+    width: 400px;
+    float: left;
+    margin-left: 50px;
+}
+
+div#lista2 {
+    width: 400px;
+    float: right;
+    margin-right: 300px;
+}
