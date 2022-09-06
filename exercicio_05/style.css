@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: cornsilk;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 700px;
+    margin: auto;
+    margin-top: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin-left: 8%;
+}
+
+h2 {
+    margin-left: 35%;
+    padding: 5px;
+}
+
+table {
+    width: 700px;
+    border: 6px solid black;
+    border-radius: 14px;
+    border-collapse: collapse;
+}
+
+td{
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding: 4px;
+    text-align: center;
+}
+
+th {
+    border: 3px solid black;
+    padding: 4px;
+    color: white;
+}
+
+.linha {
+    background-color: dimgrey;
+}
+
+.linha1 {
+    background-color: white;
+}
+
+.linha2 {
+    background-color: lightgrey;
+}
