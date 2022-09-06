@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#titulo {
+    font-family: sans-serif;
+    color: rgb(72, 28, 114);
+    margin-bottom: 2%;
+}
+
+fieldset {
+    border: 0;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: darkorchid;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+input, textarea, button {
+    border-radius: 5px;
+}
+
+.eita {
+    margin-bottom: 1em;
+}
+
+.eita label {
+    margin-bottom: 0.2em;
+    color: blueviolet;
+    display: block;
+}
+
+fieldset .eita {
+    float: left;
+    margin-right: 1em;
+}
+
+.eita input[type="text"], .eita input[type="email"], .eita textarea {
+    padding: 00.2em;
+    border: 1px solid #429b;
+    box-shadow: 2px 2px 2px rgb(0, 0, 2);
+}
+
+.eita input:focus, .eita textarea:focus {
+    background-color: azure;
+}
+
+button {
+    font-size: 1.2em;
+    background-color: cornflowerblue;
+    border: 0;
+    margin-bottom: 1em;
+    color: aliceblue;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px #429b;
+    text-shadow: 1px 1px 1px #429b;
+    position: absolute;
+}
+
+button:hover {
+    background: #ccbbff;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+}
+
+#email {
+    width: 26em;
+}
+
+#assunto {
+    width: 26em;
+}
+
+
+
+
+
+
+
+
+
+
